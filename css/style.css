@@ -9,9 +9,8 @@
         overflow: visible;
         margin-top: -56px;
     }
-}
-.navbar {
-    z-index: 1;
+}  .navbar {
+    z-index: 3;
 }
 
 html,
