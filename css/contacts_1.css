@@ -5,7 +5,17 @@ body,
 header,
 .view {
     height: 100%;
+
 }
+html {
+) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 
 @media (max-width: 740px) {
     html,
@@ -46,4 +56,8 @@ nav {
 }
 .nav-item {
     margin: 25px;
+}
+.carousel-inner img{
+    height: 100%;
+    width: 100%;
 }
