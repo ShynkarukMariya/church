@@ -9,6 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mdb.min.css" rel="stylesheet">
     <link href="css/contacts_1.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -45,8 +46,8 @@
 
     <!-- Navbar -->
 
-    <div class="view" style="background-repeat: no-repeat; background-size: cover; background-position: center center;">
-        <!-- Mask & flexbox options-->
+    <div class="view" style=" background-repeat: no-repeat; background-size: cover; background-position: center center;">
+       <img src="img/IMG_1.jpg"> <!-- Mask & flexbox options-->
         <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
             <div class="container">
@@ -80,8 +81,33 @@
 
                     </div>
 
+                    <form class="form" id="main_form" action="javascript:void(0);" autocomplete="off">
+                        <div class="form-row input-field">
+                            <input id="first_name" type="text" class="input" name="FirstName">
+                            <label for="first_name">Имя</label>
+                        </div>
+                        <div class="form-row input-field">
+                            <input id="last_name" type="text" class="input" name="LastName">
+                            <label for="last_name">Фамилия</label>
+                        </div>
+                        <div class="form-row input-field">
+                            <input id="your_email" type="email" class="input" name="email">
+                            <label for="your_email">Email</label>
+                        </div>
+                        <div class="form-row input-field">
+                            <input id="your_phone" type="tel" class="input" name="Phone">
+                            <label for="your_phone">Телефон</label>
+                        </div>
+                        <div class="form-row input-field">
+                            <input id="your_password" type="password" class="input password" name="password" autocomplete="new-password">
+                            <label for="your_password">Пароль</label>
+                        </div>
+                        <div class="form-row form-row-btn">
+                            <button class="submit" id="submit" type="submit" name="submit">Отправить</button>
+                        </div>
+                    </form>
 
-                    <div class="col-md-6 col-xl-5 mb-4">
+                   <!-- <div class="col-md-6 col-xl-5 mb-4">
 
                         <div class="card wow fadeInRight" data-wow-delay="0.3s">
                             <div class="card-body z-depth-2">
@@ -141,7 +167,7 @@
             </div>
 
         </div>
-    </div>
+    </div>-->
 </header>
 
 
@@ -178,6 +204,9 @@
 
 
 </footer>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js">
 
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <!-- Bootstrap tooltips -->
